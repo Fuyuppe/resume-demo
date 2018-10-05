@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Resume Demo</title>
+  </head>
+  <!-- <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    
+  </body> -->
+
+  <body id="top">
+    <div id="cv" class="instaFade">
+      <div class="mainDetails">
+        <div id="headshot" class="quickFade">
+          <img src="profile.jpg" alt="Summana Man-in" />
+        </div>
+        
+        <div id="name">
+          <h1 class="quickFade delayTwo">สัมมนา หมานอีน</h1>
+          <h2 class="quickFade delayThree">วิศวกรรมคอมพิวเตอร์</h2>
+          <h3 class="quickFade delayThree">มหาวิทยาลัยเทคโนโลยีราชมงคล ศรีวิชัย สงขลา</h3>
+        </div>
+        
+        <div id="contactDetails" class="quickFade delayFour">
+          <ul>
+            <li>Email : <a href="mailto:summana.man.in@gmail.com" target="_blank"> summana.man.in@gmail.com</a></li>
+            <!-- <li>Facebook: <a href="">www.facebook.com/romleenong</a></li> -->
+            <li>Tel.: 086-6972270</li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <div id="mainArea" class="quickFade delayFive">
+        <section>
+          <article>
+            <div class="sectionTitle">
+              <h1>ประวัติส่วนตัว</h1>
+            </div>
+            
+            <div class="sectionContent">
+              <p>ชื่อ-สกุล : นาย สัมมนา หมานอีน</p>
+              <p>ชื่อเล่น : รอมลี</p>
+              <p>วัน/เดือน/ปีเกิด : 26 กรกฎาคม พ.ศ. 2537 </p>
+              <p>อายุ : 24 ปี</p>
+              <p>ที่อยู่ : 59 หมู่ 4 ต.นาทับ อ.จะนะ จ.สงขลา 90130 </p>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+        
+        
+        <section>
+          <div class="sectionTitle">
+            <h1>ประวัติการศึกษา</h1>
+          </div>
+          
+          <div class="sectionContent">
+              <p>สถานศึกษา : มหาวิทยาลัยเทคโนโลยีราชมงคล</p>
+              <p>คณะ : วิศวกรรมศาสตร์</p>
+              <p>สาขา : วิศวกรรมคอมพิวเตอร์ </p>
+              <p>เกรด : 2.49</p>
+              <p>หน่วยกิต : 138 หน่วย </p>
+            
+          </div>
+          <div class="clear"></div>
+        </section>
+        
+        
+        <section>
+          <div class="sectionTitle">
+            <h1>ทักษะพื้นฐาน</h1>
+          </div>
+          
+          
+            <div class="sectionContent">
+              <p>FrontEnd Web : HTML , CSS , React JS , Jquery , AJAX</p>
+              <p>BackEnd  : PHP</p>
+              <p>Database : SQL , MongoDB</p>
+              <p>Framework Web : Laravel , Yii 2</p>
+              <p>FrontEnd Mobile : React Native </p>
+              <p>Framework Mobile : Ionic</p>
+             
+            
+          </div>
+          
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>เอกสารสมัครงาน</h1>
+          </div>
+          
+          
+            <div class="sectionContent">
+              <a href="docs.pdf"><button class="button-docs">แสดงเอกสารสมัครงาน</button></a>
+             
+            
+          </div>
+          
+          <div class="clear"></div>
+        </section>  
+
+        
+      
+      </div>
+    </div>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-3753241-1");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+    </body>
+</html>
